@@ -21,11 +21,11 @@ const info = [
 
 const TestimonialSection = () => {
 	return (
-		<section className="py-40 bg-black text-white border-b-8 border-slate-100">
+		<section className="py-40 bg-black text-white border-b-8 border-red-500">
 			<Container>
 				<div className="flex flex-col items-center gap-10">
 					<h3 className="font-black text-4xl">Depoimentos</h3>
-					<div className="flex flex-col gap-5 relative">
+					<div className="flex flex-col gap-5 max-w-lg">
 						{info.map((card) => (
 							<TestimonialCard key={card.id} info={card} />
 						))}

@@ -4,8 +4,8 @@ const ContactSection = () => {
 	return (
 		<section className="py-40">
 			<Container>
-				<div className="flex flex-col gap-5">
-					<div className="flex flex-col gap-10">
+				<div className="flex flex-col gap-10 md:items-center md:justify-center md:max-w-lg md:mx-auto">
+					<div className="flex flex-col gap-10 md:text-center">
 						<h3 className="font-black text-4xl">
 							Ficou alguma dúvida?
 						</h3>

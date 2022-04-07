@@ -16,7 +16,7 @@ const socials = [
 
 const AboutSection = () => {
 	return (
-		<section className="pt-96">
+		<section className="pt-96 md:pt-52">
 			<Container>
 				<div className="py-10 flex flex-col items-center gap-10">
 					<div className="flex flex-col gap-5 items-center justify-center text-center">
@@ -46,7 +46,7 @@ const AboutSection = () => {
 						</p>
 					</div>
 					<div className="flex flex-col gap-5">
-						<div className="relative w-72 h-72">
+						<div className="relative w-72 h-72 md:w-44 md:h-44">
 							<Image
 								src="/images/brenda-e-bea.jpg"
 								alt="Foto das autoras"
