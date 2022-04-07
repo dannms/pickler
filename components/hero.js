@@ -18,7 +18,12 @@ const Hero = () => {
 							conteúdos incríveis. Clique no botão abaixo e compre
 							agora
 						</h2>
-						<a className="px-4 py-2 bg-red-500">Comprar agora</a>
+						<a
+							className="px-4 py-2 bg-red-500"
+							href="https://sun.eduzz.com/1009450"
+						>
+							Comprar agora
+						</a>
 						<div className="flex items-center">
 							<small>Disponível apenas na</small>
 							<span className="relative w-16 h-16">

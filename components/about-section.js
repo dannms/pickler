@@ -4,7 +4,7 @@ import Image from 'next/image';
 const socials = [
 	{
 		icon: 'bx bxl-instagram',
-		to: '/',
+		to: 'https://www.instagram.com/pickler.conexoes/',
 		id: 1,
 	},
 	{
