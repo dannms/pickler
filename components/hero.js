@@ -7,8 +7,8 @@ const Hero = () => {
 		<div className="w-screen h-screen bg-black text-white">
 			<Container>
 				<Navbar />
-				<div className="pt-40 relative flex justify-between md:justify-center">
-					<div className="max-w-lg gap-5 flex flex-col items-center text-center">
+				<div className="pt-40 relative flex justify-between md:justify-center lg:justify-between">
+					<div className="max-w-lg gap-5 flex flex-col items-center lg:items-start text-center lg:text-left">
 						<h1 className="font-black text-4xl">
 							Aprenda tudo que você precisa saber para ser um
 							influenciador de sucesso

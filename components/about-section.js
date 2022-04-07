@@ -18,8 +18,8 @@ const AboutSection = () => {
 	return (
 		<section className="pt-96 md:pt-52">
 			<Container>
-				<div className="py-10 flex flex-col items-center gap-10">
-					<div className="flex flex-col gap-5 items-center justify-center text-center">
+				<div className="py-10 flex flex-col lg:flex-row items-center gap-10 lg:justify-between">
+					<div className="flex flex-col gap-5 items-center lg:items-start justify-center lg:justify-start text-center lg:text-left lg:max-w-lg">
 						<h3 className="font-black text-4xl">
 							Sobre as autoras
 						</h3>
@@ -45,8 +45,8 @@ const AboutSection = () => {
 							conteúdos descontraídos e de grande relevância.
 						</p>
 					</div>
-					<div className="flex flex-col gap-5">
-						<div className="relative w-72 h-72 md:w-44 md:h-44">
+					<div className="flex flex-col gap-5 lg:justify-start">
+						<div className="relative w-72 h-72 md:w-44 md:h-44 lg:w-72 lg:h-72">
 							<Image
 								src="/images/brenda-e-bea.jpg"
 								alt="Foto das autoras"
