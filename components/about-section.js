@@ -36,8 +36,8 @@ const AboutSection = () => {
 							empresas dentro do mundo de marketing de influência.
 							A marca em menos de um ano de atividade, já possui
 							produto digital lançado, conecta diversas marcas a
-							influencers, além de prestar serviços de assessoria
-							e mentoria.
+							influencers, além de prestar serviços de elaboração
+							de midia kit personalizado, assessoria e mentoria.
 						</p>
 						<p>
 							No Instagram, se destacam pelo conteúdo de alto
