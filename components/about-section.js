@@ -9,7 +9,7 @@ const socials = [
 	},
 	{
 		icon: 'bx bxl-whatsapp',
-		to: '/',
+		to: 'https://wa.me/5521991332328',
 		id: 2,
 	},
 ];
