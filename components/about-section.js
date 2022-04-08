@@ -16,7 +16,7 @@ const socials = [
 
 const AboutSection = () => {
 	return (
-		<section className="pt-96 md:pt-52 lg:pt-14 lg:pb-14">
+		<section className="pt-72 sm:pt-96 md:pt-52 lg:pt-14 lg:pb-14">
 			<Container>
 				<div className="py-10 flex flex-col lg:flex-row items-center gap-10 lg:justify-between">
 					<div className="flex flex-col gap-5 items-center lg:items-start justify-center lg:justify-start text-center lg:text-left lg:max-w-lg">

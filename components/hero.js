@@ -7,9 +7,12 @@ const Hero = () => {
 		<div className="w-screen h-screen bg-black text-white">
 			<Container>
 				<Navbar />
-				<div className="pt-40 relative flex justify-between md:justify-center lg:justify-between">
+				<div className="pt-8 sm:pt-40 relative flex justify-between md:justify-center lg:justify-between">
 					<div className="max-w-lg gap-5 flex flex-col items-center lg:items-start text-center lg:text-left">
-						<h1 className="font-black text-4xl" data-aos="fade-up">
+						<h1
+							className="font-black text-xl sm:text-4xl"
+							data-aos="fade-up"
+						>
 							Aprenda tudo que você precisa saber para ser um
 							influenciador de sucesso
 						</h1>
