@@ -1,6 +1,9 @@
 const TestimonialCard = ({ info }) => {
 	return (
-		<div className="bg-white text-black p-4 flex flex-col gap-5 h-60 justify-end border-r-4 border-red-500">
+		<div
+			className="bg-white text-black p-4 flex flex-col gap-5 h-60 justify-end border-r-4 border-red-500"
+			data-aos="fade-up"
+		>
 			<div className="flex gap-5 items-end">
 				<h5 className="font-black text-xl leading-none">{info.name}</h5>
 				<small className="leading-none text-red-500">

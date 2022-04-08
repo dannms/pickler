@@ -2,7 +2,7 @@ const nodemailer = require('nodemailer');
 
 export default function sendMail(req, res) {
 	let transporter = nodemailer.createTransport({
-		host: 'smtp.umbler.com',
+		host: 'smtp-mail.outlook.com',
 		port: 587,
 		auth: {
 			user: process.env.NODEMAILER_USER,
