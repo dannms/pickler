@@ -21,7 +21,7 @@ const AboutSection = () => {
 				<div className="py-10 flex flex-col lg:flex-row items-center gap-10 lg:justify-between">
 					<div className="flex flex-col gap-5 items-center lg:items-start justify-center lg:justify-start text-center lg:text-left lg:max-w-lg">
 						<h3 className="font-black text-4xl" data-aos="fade-up">
-							Sobre as autoras
+							Sobre a Pickler
 						</h3>
 						<p data-aos="fade-up" data-aos-delay="200">
 							A Pickler Conexões é uma marca criada por Beatriz e
